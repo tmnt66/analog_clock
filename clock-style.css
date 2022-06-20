@@ -1,0 +1,36 @@
+#clock-container{
+    background: center/contain no-repeat url('clock_3.png');
+    height: 40vw;
+    position: relative;
+}
+
+#hour , #minute , #seconed {
+    position: absolute;
+    background-color: black;
+    border-radius: 5px;
+    height: 40%;
+    width: 7px;
+    top: 52px;
+    left: 49.74%;
+    transform-origin: bottom;
+}
+#hour{
+    height: 110px;
+    top: 163px;
+    width: 7px;
+    /* display: none; */
+}
+#minute {
+    height: 148px;
+    width: 7px;
+    left: 49.74%;
+    top: 125px;
+    /* display: none; */
+
+}
+#seconed{
+
+    width: 3px;
+    left: 49.9%;
+
+}
